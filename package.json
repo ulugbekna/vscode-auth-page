@@ -1,0 +1,20 @@
+{
+    "name": "github-auth-page",
+    "version": "1.0.0",
+    "description": "GitHub authentication page server",
+    "main": "index.html",
+    "scripts": {
+        "start": "http-server -p 3000 -o",
+        "dev": "http-server -p 3000 -o -c-1"
+    },
+    "devDependencies": {
+        "http-server": "^14.1.1"
+    },
+    "keywords": [
+        "auth",
+        "github",
+        "vscode"
+    ],
+    "author": "",
+    "license": "MIT"
+}
