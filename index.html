@@ -15,7 +15,7 @@
 			<div class="icon-container">
 				<img src="code-icon.svg" class="vscode-icon">
 			</div>
-			<h1 class="title">Launching in <span class="app-name"></span></h1>
+			<h1 class="title">Launching <span class="app-name">Visual Studio Code</span></h1>
 			<div class="message">
 				<div class="success-message">
 					<p class="subtitle">You will be redirected in a few moments.</p>
@@ -31,7 +31,7 @@
 	<script>
 		const urlParams = new URLSearchParams(window.location.search);
 		const appName = urlParams.get('app_name');
-		document.querySelectorAll('.app-name').forEach(e => e.innerText = appName);
+		// document.querySelectorAll('.app-name').forEach(e => e.innerText = appName);
 
 		const error = urlParams.get('error');
 		const redirectUri = urlParams.get('redirect_uri');
