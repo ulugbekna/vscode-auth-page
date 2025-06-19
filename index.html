@@ -36,7 +36,7 @@
 		const error = urlParams.get('error');
 		const redirectUri = urlParams.get('redirect_uri');
 		if (error) {
-			document.querySelector('.error-text').textContent = error;
+			document.querySelector('.error-message > .detail').textContent = error;
 			document.querySelector('body').classList.add('error');
 		} else if (redirectUri) {
 			// Set up the fallback link
